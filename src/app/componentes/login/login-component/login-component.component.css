@@ -1,0 +1,15 @@
+form {
+    width: 26vw;
+    height: 50vh;
+    background-color: white;
+}
+
+h2 {
+    color: #F5AF00;
+}
+
+.btn-primary {
+    background-color: #F5AF00;
+    border-radius: 20%;
+    color: white;
+}

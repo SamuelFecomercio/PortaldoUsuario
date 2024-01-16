@@ -5,9 +5,8 @@ main {
 
   width: 100vw;
   height: 100vh;
-}
 
-.logoBranco{
-  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
