@@ -1,0 +1,13 @@
+main {
+  background-image: url('/assets/img/background2.jpg');
+  background-size: cover;
+  background-position: center center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.logoBranco{
+  width: 20%;
+}
+
