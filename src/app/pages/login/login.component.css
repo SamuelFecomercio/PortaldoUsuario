@@ -1,5 +1,5 @@
 main {
-  background-image: url('/assets/img/background2.jpg');
+  background-image: url('/assets/img/background.png');
   background-size: cover;
   background-position: center center;
 
@@ -7,6 +7,8 @@ main {
   height: 100vh;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
   align-items: center;
+
+  padding-right: 10.9rem;
 }
