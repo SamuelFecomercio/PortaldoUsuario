@@ -8,6 +8,7 @@
 h1{
   color: white;
   font: 34px;
+  font-family: var(--primary-font);
 }
 
 .logoBranco{

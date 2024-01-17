@@ -1,10 +1,13 @@
-import {MatIconModule} from '@angular/material/icon'
 import { Component } from '@angular/core';
+
+import { MatIconModule } from '@angular/material/icon'
+import { NgxMaskDirective, provideNgxMask } from 'ngx-mask';
 
 @Component({
   selector: 'app-login-component',
   standalone: true,
-  imports: [MatIconModule],
+  imports: [MatIconModule, NgxMaskDirective],
+  providers: [provideNgxMask({ /* opções de cfg */ })],
   templateUrl: './login-component.component.html',
   styleUrl: './login-component.component.css'
 })

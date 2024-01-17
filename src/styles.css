@@ -8,6 +8,7 @@
 
 :root{
   --primary-font: 'Poppins', sans-serif;
+  --primary-color: #F5AF00;
 }
 
 html, body { height: 100%; }
