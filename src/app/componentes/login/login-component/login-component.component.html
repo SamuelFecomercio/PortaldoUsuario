@@ -1,16 +1,18 @@
-<form action="post">
-    <h2>Faça seu login</h2>
-    <div>
-        <mat-icon>person</mat-icon>
-        <input matInput type="text" name="cpf" placeholder="CPF" required>
-    </div>
-    <div>
-        <mat-icon>lock</mat-icon>
-        <input matInput type="password" name="senha" placeholder="Senha" required>
-    </div>
-    <button class="btn-primary">Entrar</button>
-    <button class="btn-secondary">Esqueci a senha</button>
-</form>
+<div class="container">
+  <form action="post">
+      <h2>Faça seu login</h2>
+      <div class="box-cpf">
+          <div class="icone"><mat-icon>person</mat-icon></div>
+          <input class="input-cpf" matInput type="text" name="cpf" placeholder="CPF" required>
+      </div>
+      <div class="box-input">
+          <div class="icone"><mat-icon>lock</mat-icon></div>
+          <input class="input-input" matInput type="password" name="senha" placeholder="Senha" required>
+      </div>
+      <button class="btn-primary">Entrar</button>
+      <button class="btn-secondary">Esqueceu a senha?</button>
+  </form>
+</div>
 
 
 
@@ -26,17 +28,16 @@
 
 
 <!-- <form>
-    <form>
-        <label>CPF</label>
-        <input matInput type="text" name="cpf" required>
-    </form>
+  <form>
+      <label>CPF</label>
+      <input matInput type="text" name="cpf" required>
+  </form>
 
-    <form>
-        <label>Senha</label>
-        <input matInput type="password" name="senha" required>
-    </form>
+  <form>
+      <label>Senha</label>
+      <input matInput type="password" name="senha" required>
+  </form>
 
-    <button mat-raised-button color="primary" (click)="login()">Entrar</button>
+  <button mat-raised-button color="primary" (click)="login()">Entrar</button>
 </form> -->
-
 

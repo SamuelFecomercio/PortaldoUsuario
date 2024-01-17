@@ -1,15 +1,94 @@
-form {
-    width: 26vw;
-    height: 50vh;
-    background-color: white;
+  form {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, .1);
+  box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15);
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
-    color: #F5AF00;
+  color: #F5AF00;
+  font-size: 34px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  font-family: var(--primary-font);
+}
+
+.box-cpf{
+  display: flex;
+  border: 1px solid rgb(173, 173, 173);
+  padding: .8rem 1rem .8rem 0;
+  margin-top: 2rem;
+  background: #f8f9fA;
+}
+
+.box-input{
+  display: flex;
+  border: 1px solid rgb(173, 173, 173);
+  padding: .8rem 1rem .8rem 0;
+  margin-top: 1rem;
+  background: #f8f9fA;
+
+}
+
+.input-cpf{
+  border: none;
+  padding: .1rem 6rem .1rem 1rem;
+  font-size: 1rem;
+  background: #f8f9fA;
+  outline: none;
+}
+
+.input-input{
+  border: none;
+  padding: .1rem 6rem .1rem 1rem;
+  font-size: 1rem;
+  background: #f8f9fA;
+  outline: none;
+}
+
+.box-cpf:focus-within,
+.box-input:focus-within {
+border-color: #F5AF00;
 }
 
 .btn-primary {
-    background-color: #F5AF00;
-    border-radius: 20%;
-    color: white;
+  background-color: #F5AF00;
+  border-radius: 1.5rem;
+  color: white;
+  font-size: 24px;
+  font-family: var(--primary-font);
+
+  padding: .6rem 1.8rem;
+  border: none;
+  font-weight: bold;
+  margin-top: 1.4rem;
+  cursor: pointer;
+}
+
+.btn-secondary{
+  border: none;
+  background: none;
+  padding-top: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--primary-font);
+
+  color: rgb(82, 82, 82);
+}
+
+mat-icon{
+  color: rgb(199, 199, 199);
+}
+
+.icone{
+  padding-left: 1rem;
 }

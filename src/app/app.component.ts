@@ -11,9 +11,5 @@ import { LoginPageComponent } from './pages/login/login.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'portaldousuario';
+  title = 'Cartão do Empresário | Milhares de benefícios para você';
 }
-
-
-
-

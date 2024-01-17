@@ -11,6 +11,10 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   cpf: string = '';
   senha: string = '';
+  mask: string = '';
+
+
+
 
   login() {
     // Lógica de login
